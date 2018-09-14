@@ -1,4 +1,5 @@
 def is_prime(n):
+    '''Returns True if the given number is prime and False otherwise'''
     if n == 2:
         return True
     for i in range(2,n):

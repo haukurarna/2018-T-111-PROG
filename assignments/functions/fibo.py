@@ -1,5 +1,5 @@
 def fibo(n):
-    
+    ''' Prints the first n elements of a Fibonacci series''' 
     first = 0
     second = 1
     print(second, end=' ')

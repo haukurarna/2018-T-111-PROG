@@ -1,4 +1,5 @@
 def palindrome(s):
+    '''Returns True if the given string is a palindrome and False otherwise.'''
     s1 = ''
     for ch in s:
         if ch.isalnum():
