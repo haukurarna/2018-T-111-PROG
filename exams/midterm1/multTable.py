@@ -17,7 +17,8 @@
 
 # The width for each number is 5, and each number is right justified.
 
-for i in range(1,11):
-    for j in range(1,11):
+MAX = 10
+for i in range(1,MAX+1):
+    for j in range(1,MAX+1):
         print("{:>5d}".format(i*j), end="")
     print("")
